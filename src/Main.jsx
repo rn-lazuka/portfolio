@@ -1,13 +1,12 @@
 import React from 'react';
+import s from './Main.module.css'
 
-import s from './Header.module.css'
+function Main() {
+    return (
+        <div className={s.main}>
 
-function Header () {
-  return (
-    <div className={s.header}>
-
-    </div>
-  );
+        </div>
+    );
 }
 
-export default Header;
+export default Main;

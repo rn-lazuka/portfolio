@@ -1,4 +1,16 @@
 .header {
-height: 50px;
+    height: 60px;
     background-color: #61dafb;
+    display: flex;
+    justify-content: center;
 }
+
+.container {
+    border: solid 1px;
+    width: 80vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
