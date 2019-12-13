@@ -1,4 +1,26 @@
 .main {
     height: 100vh;
     background-color: lightpink;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    border: solid 1px;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.greeting {
+    display: flex;
+    flex-direction: column;
+}
+
+.photo {
+    height: 400px;
+    width: 300px;
+    background-color: indigo;
 }
