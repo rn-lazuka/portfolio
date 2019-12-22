@@ -1,4 +1,32 @@
 .contacts {
     height: 100vh;
     background-color: #61dafb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.container {
+    width: 80vw;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.title {
+    height: 10%;
+    margin: 10px;
+    padding: 10px;
+}
+.container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    width: 30%;
+}
+.container form textarea{
+    height: 200px;
+}
+
