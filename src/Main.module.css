@@ -11,6 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap:wrap;
 
 }
 
@@ -20,7 +21,7 @@
 }
 
 .photo {
-    height: 20vw;
-    width: 16vw;
+    height: 300px;
+    width: 220px;
     background-color: indigo;
 }

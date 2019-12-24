@@ -1,9 +1,10 @@
 .projects {
-    height: 100vh;
+    min-height: 100vh;
     background-color: lawngreen;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .container {
@@ -33,8 +34,8 @@
     display: flex;
     flex-direction: column;
     background-color: green;
-    height: 100%;
-    width: 40%;
+    height: 250px;
+    width: 200px;
     border: solid 1px;
     justify-content: space-around;
     align-items: center;

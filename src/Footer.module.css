@@ -1,5 +1,5 @@
 .footer {
-    height: 30vh;
+    min-height: 30vh;
     background-color: saddlebrown;
     display: flex;
     align-items: center;
@@ -23,10 +23,14 @@
     padding: 10px;
 }
 .items {
-    width: 40%;
     border: solid 1px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin: 20px;
+}
+.items img{
+    margin: 20px;
+    width: 50px;
+    height: 50px;
 }
