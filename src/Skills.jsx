@@ -1,5 +1,6 @@
 import React from 'react';
 import s from './Skills.module.css'
+import Skill from "./Skill";
 
 function Skills() {
     return (
@@ -9,11 +10,11 @@ function Skills() {
                     My skills
                 </div>
                 <div className={s.items}>
-                    <div className={s.item}>HTML</div>
-                    <div className={s.item}>CSS</div>
-                    <div className={s.item}>React</div>
-                    <div className={s.item}>Node JS</div>
-                    <div className={s.item}>Redux</div>
+                    <Skill skillName={"HTML"} description={"Description"}/>
+                    <Skill skillName={"CSS"} description={"Description"}/>
+                    <Skill skillName={"JS"} description={"Description"}/>
+                    <Skill skillName={"React"} description={"Description"}/>
+                    <Skill skillName={"Redux"} description={"Description"}/>
                 </div>
             </div>
         </div>

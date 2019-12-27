@@ -24,8 +24,6 @@
 
 .items {
     height:70%;
-    width: 100%;
-
     flex-wrap: wrap;
     display: flex;
     justify-content: space-around;

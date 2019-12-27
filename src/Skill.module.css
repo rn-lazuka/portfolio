@@ -1,0 +1,30 @@
+.items {
+    height:70%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}
+
+.item {
+margin: 2px;
+    background-color: green;
+    height: 230px;
+    width: 230px;
+    border: solid 1px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.item img{
+    height: 60px;
+    width: 60px;
+    background-color: darkgray;
+}
+.description {
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

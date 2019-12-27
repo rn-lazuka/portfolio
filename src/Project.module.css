@@ -1,0 +1,27 @@
+.items {
+    height: 70%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    height: 250px;
+    width: 200px;
+    border: solid 1px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.picture {
+    height: 60%;
+    width:100%;
+    background-image: url("https://regnum.ru/uploads/pictures/news/2016/02/09/regnum_picture_1455046598_normal.jpg");
+background-size: 100%;
+}
+div {
+    display: block;
+}

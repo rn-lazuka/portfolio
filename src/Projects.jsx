@@ -1,5 +1,6 @@
 import React from 'react';
 import s from './Projects.module.css'
+import Project from "./Project";
 
 function Projects() {
     return (
@@ -9,13 +10,8 @@ function Projects() {
                     My Works
                 </div>
                 <div className={s.items}>
-                    <div className={s.item}>
-                        <div> Description</div>
-                    </div>
-                    <div className={s.item}>
-                    <button>Смотреть</button>
-                        <div> Description</div>
-                    </div>
+                   <Project/>
+                   <Project/>
                 </div>
             </div>
         </div>
