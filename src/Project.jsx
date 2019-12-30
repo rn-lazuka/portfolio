@@ -7,7 +7,10 @@ function Project() {
             <div className={s.picture}>
             <button>Смотреть</button>
             </div>
-            <div> Description</div>
+            <div className={s.description}>
+                <h3>Name of Project</h3>
+                <span>Description</span>
+            </div>
         </div>
             );
 }

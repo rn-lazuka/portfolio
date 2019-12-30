@@ -12,7 +12,7 @@
     height: 250px;
     width: 200px;
     border: solid 1px;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 
 }
@@ -20,8 +20,18 @@
     height: 60%;
     width:100%;
     background-image: url("https://regnum.ru/uploads/pictures/news/2016/02/09/regnum_picture_1455046598_normal.jpg");
-background-size: 100%;
+background-size:cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
-div {
-    display: block;
+.picture button{
+    width: 50%;
+}
+
+.description {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
 }
