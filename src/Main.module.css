@@ -1,27 +1,72 @@
 .main {
-    height: 100vh;
-    background-color: lightpink;
+    padding: 80px 0px;
+    min-height: 92vh;
+    background-color: #1f1f20;
     display: flex;
     justify-content: center;
 }
 
 .container {
-    border: solid 1px;
     width: 80vw;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
 
 }
 
 .greeting {
     display: flex;
     flex-direction: column;
+    text-align: start;
+
+}
+
+.greeting span:nth-child(1) {
+    font-size: 16px;
+
+}
+
+.greeting span:nth-child(2),
+.greeting span:nth-child(2) span {
+    font: 700 30px/1.2 Kurale, serif;
+    font-weight: 600;
+    font-stretch: normal;
+    letter-spacing: 5px;
+    position: relative;
+    z-index: 0;
+}
+.greeting span:nth-child(2) span:before {
+    content: "";
+    position: absolute;
+    width: 252px;
+    height: 15px;
+    background-color: grey;
+    bottom: 0px;
+    z-index: -1;
+}
+
+
+@media screen and (max-width: 416px) {
+    .greeting span:nth-child(2) span:before {
+        width: 550%;
+        left: -210px;
+    }
+}
+@media only screen   and (min-device-width: 416px)
+and (max-width: 596px){
+    .greeting span:nth-child(2) span:before {
+        width: 128px;
+        left: -223px;
+    }
+}
+
+h1 {
+    font-size: 27px;
 }
 
 .photo {
-    height: 300px;
-    width: 220px;
+    height: 320px;
+    width: 280px;
     background-color: indigo;
 }
