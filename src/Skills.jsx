@@ -8,9 +8,9 @@ function Skills() {
             <div className={s.container}>
                 <div className={s.headerTitle}>
                     <h2 className={s.headerTitle}>
-                        My skills
+                    Ключевые навыки
                     </h2>
-                    <div className={s.line}> </div>
+                    <div className={'line'}> </div>
                 </div>
                 <div className={s.items}>
                     <Skill skillName={"HTML&CSS"} description={"Description"}/>

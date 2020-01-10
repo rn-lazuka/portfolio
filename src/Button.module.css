@@ -1,0 +1,54 @@
+.customBtn:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    color: #fff;
+}
+.customBtn {
+    display: block;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    font-stretch: normal;
+    font-size: 14px;
+    line-height: 1.8;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding: 7px 20px;
+    cursor: pointer;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    -o-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+    background: transparent;
+    color: #fff;
+    max-width: 170px;
+    margin: 15px auto;
+    z-index: 0;
+    text-align: center;
+    border-radius: 0;
+    width: 100%;
+    border: none;
+    position: relative;
+}
+
+.customBtn:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 10px;
+    width: 50%;
+    background: #4e93e6;
+    z-index: -1;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+    margin: 0 auto;
+}
+.customBtn:hover:after {
+    height: 100%;
+    width: 100%;
+}

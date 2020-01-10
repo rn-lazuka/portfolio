@@ -1,6 +1,6 @@
 .footer {
     min-height: 30vh;
-    background-color: saddlebrown;
+    background-color: #252527;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -23,14 +23,13 @@
     padding: 10px;
 }
 .items {
-    border: solid 1px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin: 20px;
 }
-.items img{
-    margin: 20px;
-    width: 50px;
-    height: 50px;
+.items a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
 }

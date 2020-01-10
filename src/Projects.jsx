@@ -7,7 +7,8 @@ function Projects() {
         <div className={s.projects}>
             <div className={s.container}>
                 <div className={s.title}>
-                    My Works
+                   <h2>Мои работы</h2>
+                    <div className={'line'}> </div>
                 </div>
                 <div className={s.items}>
                    <Project/>

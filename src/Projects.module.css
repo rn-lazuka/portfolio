@@ -1,6 +1,6 @@
 .projects {
     min-height: 100vh;
-    background-color: lawngreen;
+    background-color: #1f1f20;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,7 +8,6 @@
 }
 
 .container {
-    border: solid 1px;
     width: 80vw;
     height: 80%;
     display: flex;
@@ -20,7 +19,6 @@
 .title {
     height: 10%;
     padding: 15px;
-    background-color: red;
 }
 
 .items {
@@ -28,18 +26,6 @@
     flex-wrap: wrap;
     display: flex;
     justify-content: space-around;
-}
-
-.item {
-    display: flex;
-    flex-direction: column;
-    background-color: green;
-    height: 250px;
-    width: 200px;
-    border: solid 1px;
-    justify-content: space-around;
-    align-items: center;
-
 }
 
 div {

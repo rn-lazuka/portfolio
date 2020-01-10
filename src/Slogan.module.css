@@ -1,15 +1,18 @@
 .slogan {
-    height: 33vh;
-    background-color: cadetblue;
+    min-height: 33vh;
+    background-color: #252527;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
 .container {
     height: 50%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    margin: 20px 0;
 }

@@ -8,14 +8,13 @@
 .item {
     display: flex;
     flex-direction: column;
-    background-color: green;
-    height: 250px;
-    width: 200px;
-    border: solid 1px;
-    justify-content: space-between;
+    background-color:#252527;
+    height: 300px;
+    width: 250px;
+    justify-content: space-around;
     align-items: center;
-
 }
+
 .picture {
     height: 60%;
     width:100%;
