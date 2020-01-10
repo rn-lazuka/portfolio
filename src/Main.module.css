@@ -41,7 +41,7 @@
     position: absolute;
     width: 252px;
     height: 15px;
-    background-color: grey;
+    background-color: #4e93e6;
     bottom: 0px;
     z-index: -1;
 }
@@ -80,7 +80,7 @@ h1 {
     position: absolute;
     width: 280px;
     height: 360px;
-    border: solid 5px grey;
+    border: solid 5px #4e93e6;
     left: 15px;
     top: -15px;
     z-index: -1;

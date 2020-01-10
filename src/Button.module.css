@@ -5,8 +5,6 @@
 .customBtn {
     display: block;
     font-family: 'M PLUS Rounded 1c', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
     font-weight: 400;
     font-stretch: normal;
     font-size: 14px;

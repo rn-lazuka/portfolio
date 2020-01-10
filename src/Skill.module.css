@@ -1,29 +1,21 @@
-.items {
-    height:70%;
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: space-around;
-}
-
 .item {
-margin: 2px;
-
-    height: 280px;
-    width: 350px;
+    padding: 40px 0;
+    position: relative;
+    max-width: 340px;
+    margin: 15px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
 }
-.item img{
-    height: 60px;
-    width: 60px;
-    background-color: darkgray;
+
+.item img {
+    height: 150px;
+    width: 150px;
+    size: auto;
 }
+
 .description {
-    height: 50%;
     display: flex;
-    justify-content: space-around;
     align-items: center;
 }
