@@ -1,30 +1,28 @@
 .main {
-    padding: 80px 0px;
-    min-height: 92vh;
-    background-color: #1f1f20;
     display: flex;
     justify-content: center;
+    min-height: 92vh;
+    padding: 80px 0;
+    background-color: #1f1f20;
 }
 
 .container {
-    width: 80vw;
     display: flex;
     align-items: center;
-    justify-content: space-around;
     flex-wrap: wrap;
+    justify-content: space-around;
 
+    width: 80vw;
 }
 
 .greeting {
     display: flex;
     flex-direction: column;
     text-align: start;
-
 }
 
 .greeting span:nth-child(1) {
     font-size: 16px;
-
 }
 
 .greeting span:nth-child(2),
@@ -32,56 +30,72 @@
     font: 700 30px/1.2 Kurale, serif;
     font-weight: 600;
     font-stretch: normal;
-    letter-spacing: 5px;
     position: relative;
     z-index: 0;
+    letter-spacing: 5px;
 }
+
 .greeting span:nth-child(2) span:before {
-    content: "";
     position: absolute;
+    z-index: -1;
+    bottom: 0;
     width: 252px;
     height: 15px;
+
+    content: '';
     background-color: #4e93e6;
-    bottom: 0px;
-    z-index: -1;
 }
 
-
-@media screen and (max-width: 416px) {
-    .greeting span:nth-child(2) span:before {
-        width: 550%;
-        left: -210px;
-    }
-}
-@media only screen   and (min-device-width: 416px)
-and (max-width: 596px){
-    .greeting span:nth-child(2) span:before {
-        width: 128px;
-        left: -223px;
-    }
-}
 
 h1 {
     font-size: 27px;
 }
 
 .photo {
-
     position: relative;
     z-index: 0;
 }
+
 .image {
-    height: 340px;
     width: 280px;
+    height: 340px;
     background-color: indigo;
 }
+
 .image:before {
-    content: "";
     position: absolute;
+    z-index: -1;
+    top: -15px;
+    left: 15px;
     width: 280px;
     height: 360px;
+
+    content: '';
     border: solid 5px #4e93e6;
-    left: 15px;
-    top: -15px;
-    z-index: -1;
+}
+
+
+@media screen and (max-width: 416px) {
+    .greeting span:nth-child(2) span:before {
+        left: -210px;
+
+        width: 550%;
+    }
+    .image {
+        width: 260px;
+        height: 360px;}
+    .image:before {
+        width: 255px;
+        height: 380px;
+    }
+
+}
+
+@media only screen   and (min-device-width: 416px)
+and (max-width: 596px) {
+    .greeting span:nth-child(2) span:before {
+        left: -223px;
+
+        width: 128px;
+    }
 }
