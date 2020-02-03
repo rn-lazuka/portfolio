@@ -1,5 +1,9 @@
 import React from 'react';
-import s from './Footer.module.css'
+import s from './Footer.module.css';
+import vk from  './assets/img/vk.png';
+import telegram from  './assets/img/telegram.png';
+import linkedin from  './assets/img/in.png';
+import instagram from  './assets/img/inst.png';
 
 function Footer() {
     return (
@@ -8,12 +12,20 @@ function Footer() {
                 Роман Лазука
             </div>
             <nav className={s.items}>
-               <a href={"#"}>Facebook</a>
-                <a href={"#"}>VK</a>
-                <a href={"#"}>LinkedIn</a>
-                <a href={"#"}>Instagram</a>
+               <a href={"https://vk.com/roman_nnm"} target={'_blank'}>
+                   <img src={vk} alt="#"/>
+               </a>
+                <a href={"https://t.me/roman_nnm"} target={'_blank'}>
+                    <img src={telegram} alt="#"/>
+                </a>
+                <a href={"https://www.linkedin.com/"} target={'_blank'}>
+                    <img src={linkedin} alt="#"/>
+                </a>
+                <a href={"https://www.instagram.com/roman.lazuka/"} target={'_blank'}>
+                    <img src={instagram} alt="#"/>
+                </a>
             </nav>
-            <div> ®Все права защищены</div>
+            <div>©Все права защищены</div>
         </div>
     );
 }

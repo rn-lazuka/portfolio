@@ -11,8 +11,9 @@
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
-
     width: 80vw;
+
+
 }
 
 .greeting {
@@ -59,7 +60,7 @@ h1 {
 .image {
     width: 280px;
     height: 340px;
-    background-color: indigo;
+    background-color: white;
 }
 
 .image:before {

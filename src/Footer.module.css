@@ -23,12 +23,15 @@
     padding: 10px;
 }
 .items {
+    width: 320px;
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    justify-content: space-around;
     margin: 20px;
+
 }
-.items a {
+.items a img{
+    width: 40px;
+    height: 40px;
     text-decoration: none;
     color: #fff;
     margin: 0 10px;
