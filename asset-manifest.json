@@ -1,22 +1,29 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.38bc1eac.chunk.css",
-    "main.js": "/portfolio/static/js/main.9b045301.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.9b045301.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.d2d834a2.chunk.css",
+    "main.js": "/portfolio/static/js/main.b0036146.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.b0036146.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.860ade9b.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.860ade9b.js.map",
-    "static/js/2.5fdc3ed8.chunk.js": "/portfolio/static/js/2.5fdc3ed8.chunk.js",
-    "static/js/2.5fdc3ed8.chunk.js.map": "/portfolio/static/js/2.5fdc3ed8.chunk.js.map",
+    "static/js/2.3e4d297e.chunk.js": "/portfolio/static/js/2.3e4d297e.chunk.js",
+    "static/js/2.3e4d297e.chunk.js.map": "/portfolio/static/js/2.3e4d297e.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.f1886ff0689779d4578c361b4d6af73b.js": "/portfolio/precache-manifest.f1886ff0689779d4578c361b4d6af73b.js",
+    "precache-manifest.bc7776743ea38148a52307b1b20d1570.js": "/portfolio/precache-manifest.bc7776743ea38148a52307b1b20d1570.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.38bc1eac.chunk.css.map": "/portfolio/static/css/main.38bc1eac.chunk.css.map",
-    "static/js/2.5fdc3ed8.chunk.js.LICENSE": "/portfolio/static/js/2.5fdc3ed8.chunk.js.LICENSE"
+    "static/css/main.d2d834a2.chunk.css.map": "/portfolio/static/css/main.d2d834a2.chunk.css.map",
+    "static/js/2.3e4d297e.chunk.js.LICENSE": "/portfolio/static/js/2.3e4d297e.chunk.js.LICENSE",
+    "static/media/counter.png": "/portfolio/static/media/counter.15ba3d8e.png",
+    "static/media/html-css.png": "/portfolio/static/media/html-css.783e6958.png",
+    "static/media/js.png": "/portfolio/static/media/js.32a3cb18.png",
+    "static/media/react.png": "/portfolio/static/media/react.0a71dcff.png",
+    "static/media/redux.png": "/portfolio/static/media/redux.d00c071c.png",
+    "static/media/socialnet.png": "/portfolio/static/media/socialnet.3045cb6e.png",
+    "static/media/todolist.png": "/portfolio/static/media/todolist.217a46fa.png"
   },
   "entrypoints": [
     "static/js/runtime-main.860ade9b.js",
-    "static/js/2.5fdc3ed8.chunk.js",
-    "static/css/main.38bc1eac.chunk.css",
-    "static/js/main.9b045301.chunk.js"
+    "static/js/2.3e4d297e.chunk.js",
+    "static/css/main.d2d834a2.chunk.css",
+    "static/js/main.b0036146.chunk.js"
   ]
 }
