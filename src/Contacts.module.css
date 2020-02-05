@@ -49,3 +49,11 @@
     height: 100px;
 }
 
+@media screen and (max-width: 700px) {
+
+    .container form {
+        width: 100%;
+    }
+
+}
+

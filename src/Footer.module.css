@@ -18,9 +18,10 @@
    }
 
 .title {
-    height: 10%;
+    font-size: 18px;
     margin: 10px;
     padding: 10px;
+
 }
 .items {
     width: 320px;
