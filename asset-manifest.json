@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ac5cf863.chunk.css",
-    "main.js": "/portfolio/static/js/main.b0036146.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.b0036146.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.a34f9c7e.chunk.css",
+    "main.js": "/portfolio/static/js/main.4a21b27d.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.4a21b27d.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.860ade9b.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.860ade9b.js.map",
     "static/js/2.3e4d297e.chunk.js": "/portfolio/static/js/2.3e4d297e.chunk.js",
     "static/js/2.3e4d297e.chunk.js.map": "/portfolio/static/js/2.3e4d297e.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.99ae9d6dca98eeaf43209ebeab0cf39d.js": "/portfolio/precache-manifest.99ae9d6dca98eeaf43209ebeab0cf39d.js",
+    "precache-manifest.c100316f739940936ccec95a350b2d77.js": "/portfolio/precache-manifest.c100316f739940936ccec95a350b2d77.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.ac5cf863.chunk.css.map": "/portfolio/static/css/main.ac5cf863.chunk.css.map",
+    "static/css/main.a34f9c7e.chunk.css.map": "/portfolio/static/css/main.a34f9c7e.chunk.css.map",
     "static/js/2.3e4d297e.chunk.js.LICENSE": "/portfolio/static/js/2.3e4d297e.chunk.js.LICENSE",
     "static/media/counter.png": "/portfolio/static/media/counter.15ba3d8e.png",
-    "static/media/html-css.png": "/portfolio/static/media/html-css.783e6958.png",
-    "static/media/js.png": "/portfolio/static/media/js.32a3cb18.png",
-    "static/media/react.png": "/portfolio/static/media/react.0a71dcff.png",
-    "static/media/redux.png": "/portfolio/static/media/redux.d00c071c.png",
+    "static/media/html-css.png": "/portfolio/static/media/html-css.bd88d08f.png",
+    "static/media/js.png": "/portfolio/static/media/js.f83bdb49.png",
+    "static/media/react.png": "/portfolio/static/media/react.ac801ae1.png",
+    "static/media/redux.png": "/portfolio/static/media/redux.efc594fd.png",
     "static/media/socialnet.png": "/portfolio/static/media/socialnet.3045cb6e.png",
     "static/media/todolist.png": "/portfolio/static/media/todolist.217a46fa.png"
   },
   "entrypoints": [
     "static/js/runtime-main.860ade9b.js",
     "static/js/2.3e4d297e.chunk.js",
-    "static/css/main.ac5cf863.chunk.css",
-    "static/js/main.b0036146.chunk.js"
+    "static/css/main.a34f9c7e.chunk.css",
+    "static/js/main.4a21b27d.chunk.js"
   ]
 }
