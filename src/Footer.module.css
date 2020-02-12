@@ -5,6 +5,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
+    position: relative;
 }
 
 .container {
