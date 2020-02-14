@@ -34,7 +34,7 @@
 
 .contactForm input,
 .contactForm textarea {
-    background: #252527 !important;
+    background: #252527!important;
     border: 1px solid #4a4a4a;
     font-size: 12px;
     padding: 10px 15px;
@@ -43,13 +43,21 @@
     outline: none;
     -webkit-transition: all .4s ease-in-out 0s;
     transition: all .4s ease-in-out 0s;
-    color: #495057;
+    color: rgba(222,200,200,.62);
     min-height: 10px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .contactForm textarea {
     height: 100px;
 }
+
+.contactForm input:focus,
+.contactForm textarea:focus {
+    border: 1px solid #252527;
+}
+
 
 @media screen and (max-width: 700px) {
 

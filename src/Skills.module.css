@@ -28,3 +28,9 @@
     justify-content: space-around;
     width: 100%;
 }
+
+@media screen and (max-width: 800px) {
+    .items {
+        justify-content: center;
+    }
+}

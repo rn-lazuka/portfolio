@@ -44,7 +44,7 @@ h2{
   font-size: 36px;
   line-height: 1.2;
   letter-spacing: 5px;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
 }
 .line {
   margin: 30px auto;

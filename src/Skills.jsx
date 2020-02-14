@@ -5,18 +5,25 @@ import html from './assets/img/html-css.png'
 import js from './assets/img/js.png'
 import react from './assets/img/react.png'
 import redux from './assets/img/redux.png'
+import Fade from 'react-reveal/Fade';
+import {useMediaQuery} from "react-responsive";
 
 const Skills=() =>{
+    const isDesktopOrLaptop = useMediaQuery({
+        query: '(min-device-width: 1024px)'
+    });
     return (
         <div className={s.skills}>
             <div className={s.container}>
-                <div className={s.headerTitle}>
-                    <h2 className={s.headerTitle}>
+                 <div>
+                    <h2>{isDesktopOrLaptop?<Fade left big cascade>
                         Ключевые навыки
+                    </Fade>:"Ключевые навыки"}
                     </h2>
                     <div className={'line'}>
                     </div>
                 </div>
+
                 <div className={s.items}>
                     <Skill skillName={"HTML&CSS"}
                            icon={html}

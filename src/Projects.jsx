@@ -4,25 +4,35 @@ import Project from "./Project";
 import todolist from './assets/img/todolist.png'
 import socialnet from './assets/img/socialnet.png'
 import counter from './assets/img/counter.png'
-
+import Fade from 'react-reveal/Fade';
+import {useMediaQuery} from "react-responsive";
 
 function Projects() {
-
+    const isDesktopOrLaptop = useMediaQuery({
+        query: '(min-device-width: 1024px)'
+    });
     return (
         <div className={s.projects}>
             <div className={s.container}>
-                <div className={s.title}>
-                    <h2>Мои работы</h2>
-                    <div className={'line'}>
+                {isDesktopOrLaptop?<Fade bottom>
+                    <div className={s.title}>
+                        <h2>Мои работы</h2>
+                        <div className={'line'}>
+                        </div>
                     </div>
-                </div>
+                </Fade> :  <div className={s.title}>
+                        <h2>Мои работы</h2>
+                        <div className={'line'}>
+                        </div>
+                    </div>}
+
                 <div className={s.items}>
                     <Project name={'To do list'}
                              projectLink={'https://rn-lazuka.github.io/counter-2.1/'}
                              background={todolist}
                              description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."}/>
                     <Project name={'Social network'}
-                             projectLink={'https://rn-lazuka.github.io/counter-2.1/'}
+                             projectLink={'https://rn-lazuka.github.io/socialnet/#/profile'}
                              background={socialnet}
                              description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."}/>
                     <Project name={'Counter'}
