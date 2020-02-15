@@ -11,7 +11,7 @@ function Contacts() {
         query: '(min-device-width: 1024px)'
     });
     return (
-        <div className={s.contacts}>
+        <div className={s.contacts} id={"contacts"}>
             <div className={s.container}>
                 <div className={s.title}>
                     <h2>{isDesktopOrLaptop?<Roll right>Контакты</Roll>:"Контакты"}</h2>

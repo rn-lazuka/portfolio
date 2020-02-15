@@ -12,7 +12,7 @@ function Projects() {
         query: '(min-device-width: 1024px)'
     });
     return (
-        <div className={s.projects}>
+        <div className={s.projects} id="projects">
             <div className={s.container}>
                 {isDesktopOrLaptop?<Fade bottom>
                     <div className={s.title}>

@@ -13,7 +13,7 @@ const Skills=() =>{
         query: '(min-device-width: 1024px)'
     });
     return (
-        <div className={s.skills}>
+        <div className={s.skills} id="skills">
             <div className={s.container}>
                  <div>
                     <h2>{isDesktopOrLaptop?<Fade left big cascade>

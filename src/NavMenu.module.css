@@ -2,7 +2,13 @@
     width: 360px;
     display: flex;
     justify-content: space-evenly;
+    color: -webkit-link;
+
 }
 .link {
 text-decoration: none;
+}
+
+.navMenu .active {
+    border-bottom: 2px solid black;
 }
