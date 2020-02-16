@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './NavMenu.module.css'
-import { Link,  } from "react-scroll";
+import { Link } from "react-scroll";
 
 function NavMenu() {
     return (
@@ -13,7 +13,7 @@ function NavMenu() {
                 offset={0}
                 duration= {500}
             >
-            Главная
+            <span>Главная</span>
             </Link>
             <Link
                 activeClass={s.active}
@@ -23,7 +23,7 @@ function NavMenu() {
                 offset={0}
                 duration= {500}
             >
-                Скилы
+                <span>Скилы</span>
             </Link>
             <Link
                 activeClass={s.active}
@@ -33,7 +33,7 @@ function NavMenu() {
                 offset={0}
                 duration= {500}
             >
-                Проекты
+                <span>Проекты</span>
             </Link>
             <Link
                 activeClass={s.active}
@@ -43,7 +43,7 @@ function NavMenu() {
                 offset={0}
                 duration= {500}
             >
-                Контакты
+                <span>Контакты</span>
             </Link>
         </div>
     );

@@ -3,11 +3,13 @@
     display: flex;
     justify-content: space-evenly;
     color: -webkit-link;
-
+    cursor: pointer;
 }
+
 .link {
 text-decoration: none;
 }
+
 
 .navMenu .active {
     border-bottom: 2px solid black;

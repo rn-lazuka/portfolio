@@ -111,7 +111,7 @@ function App() {
                 <Particles className={"particles"} params={particleOpt}/>
                 <Header/>
                 <Main/>
-                <Skills/>
+                <Skills />
                 <Projects/>
                 <Slogan/>
                 <Contacts/>

@@ -15,7 +15,7 @@ function Projects() {
         <div className={s.projects} id="projects">
             <div className={s.container}>
                 {isDesktopOrLaptop?<Fade bottom>
-                    <div className={s.title}>
+                    <div className={s.title} >
                         <h2>Мои работы</h2>
                         <div className={'line'}>
                         </div>
