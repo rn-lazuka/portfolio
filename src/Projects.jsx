@@ -4,6 +4,7 @@ import Project from "./Project";
 import todolist from './assets/img/todolist.png'
 import socialnet from './assets/img/socialnet.png'
 import counter from './assets/img/counter.png'
+import game from './assets/img/game-onclick.png'
 import Fade from 'react-reveal/Fade';
 import {useMediaQuery} from "react-responsive";
 
@@ -28,17 +29,17 @@ function Projects() {
 
                 <div className={s.items}>
                     <Project name={'To do list'}
-                             projectLink={'https://rn-lazuka.github.io/counter-2.1/'}
-                             background={todolist}
-                             description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."}/>
+                             projectLink={'https://rn-lazuka.github.io/todolist'}
+                             background={todolist}/>
                     <Project name={'Social network'}
                              projectLink={'https://rn-lazuka.github.io/socialnet/#/profile'}
-                             background={socialnet}
-                             description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."}/>
+                             background={socialnet}/>
                     <Project name={'Counter'}
                              projectLink={'https://rn-lazuka.github.io/counter-2.1/'}
-                             background={counter}
-                             description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."}/>
+                             background={counter}/>
+                <Project name={'Dog game'}
+                             projectLink={'https://rn-lazuka.github.io/game-onClick'}
+                             background={game}/>
                 </div>
             </div>
         </div>
