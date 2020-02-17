@@ -4,6 +4,9 @@
     justify-content: space-evenly;
     color: -webkit-link;
     cursor: pointer;
+    box-sizing: content-box;
+    margin:0;
+    padding: 0;
 }
 
 .link {
@@ -13,4 +16,5 @@ text-decoration: none;
 
 .navMenu .active {
     border-bottom: 2px solid black;
+
 }

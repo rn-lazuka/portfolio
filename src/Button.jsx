@@ -4,7 +4,7 @@ import s from './Button.module.css'
 function Button(props) {
     return (
         <div>
-            <button className={s.customBtn}>{props.name}</button>
+            <button onClick={props.submitMsg} className={s.customBtn}>{props.name}</button>
         </div>
     );
 }

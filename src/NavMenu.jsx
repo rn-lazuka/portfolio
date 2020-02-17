@@ -13,7 +13,7 @@ function NavMenu() {
                 offset={0}
                 duration= {500}
             >
-            <span>Главная</span>
+            Главная
             </Link>
             <Link
                 activeClass={s.active}
@@ -23,7 +23,7 @@ function NavMenu() {
                 offset={0}
                 duration= {500}
             >
-                <span>Скилы</span>
+                Скилы
             </Link>
             <Link
                 activeClass={s.active}
@@ -33,7 +33,7 @@ function NavMenu() {
                 offset={0}
                 duration= {500}
             >
-                <span>Проекты</span>
+                Проекты
             </Link>
             <Link
                 activeClass={s.active}
@@ -43,7 +43,7 @@ function NavMenu() {
                 offset={0}
                 duration= {500}
             >
-                <span>Контакты</span>
+                Контакты
             </Link>
         </div>
     );

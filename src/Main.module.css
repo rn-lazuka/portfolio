@@ -3,6 +3,7 @@
     justify-content: center;
     min-height: 92vh;
     padding: 80px 0;
+
     background-color: #1f1f20;
 }
 
@@ -78,12 +79,16 @@ h1 {
     border: solid 5px #4e93e6;
 }
 
+@media (max-width: 1024px) {
+    .main {
+        padding: 105px 0;
+    }
+}
 
 @media screen and (max-width: 572px) {
     .greeting span:nth-child(2) span:before {
         left: -200px;
-
-        width: 550%;
+        width: 240px;
     }
 
     .image {

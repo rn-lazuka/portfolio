@@ -1,15 +1,28 @@
-import React from 'react';
+import React, {useState} from 'react';
 import s from './Contacts.module.css'
 import Button from "./Button";
 import Fade from 'react-reveal/Fade';
 import {useMediaQuery} from "react-responsive";
 import {Roll} from "react-reveal";
+import axios from "axios";
+
 
 
 function Contacts() {
     const isDesktopOrLaptop = useMediaQuery({
         query: '(min-device-width: 1024px)'
     });
+ let submitMessage = () => {
+     let message = {mail:mail,name:name,text:text};
+     axios.post("http://localhost:3010/sendMessage", {message})
+         .then(()=> {
+             alert(message)
+         })
+
+ };
+ const [mail,setMail]= useState('');
+ const [name,setName]= useState('');
+ const [text,setText]= useState('');
     return (
         <div className={s.contacts} id={"contacts"}>
             <div className={s.container}>
@@ -20,19 +33,20 @@ function Contacts() {
 
                 <form className={s.contactForm}>
                     {isDesktopOrLaptop ? <>
-                            <Fade right><input type={"text"} placeholder={"ФИО"}/></Fade>
-                            <Fade left> <input type={"mail"} placeholder={"e-mail"}/></Fade>
-                            <Fade right><textarea placeholder={"Сообщение"}/></Fade></>
+                            <Fade right><input onChange={(e)=>setName(e.currentTarget.value)} type={"text"} name={"contacts"} placeholder={"ФИО"}/></Fade>
+                            <Fade left> <input  onChange={(e)=>setMail(e.currentTarget.value)} type={"mail"}  name={"name"} placeholder={"e-mail"}/></Fade>
+                            <Fade right><textarea  onChange={(e)=>setText(e.currentTarget.value)} placeholder={"Сообщение"}  name={"message"}/></Fade></>
                         :
                         <><input type={"text"} placeholder={"ФИО"}/>
                             <input type={"mail"} placeholder={"e-mail"}/>
                             <textarea placeholder={"Сообщение"}/>
                         </>}
+                    <div>
+                        <Button submitMsg={submitMessage} name={'Отправить'}/>
+                    </div>
                 </form>
 
-                <div>
-                    <Button name={'Отправить'}/>
-                </div>
+
             </div>
         </div>
     );
