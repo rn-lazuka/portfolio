@@ -38,11 +38,12 @@
 
 }
 
-.greeting span:nth-child(2) span:before {
+.greeting span:nth-child(2) span:after {
     position: absolute;
     z-index: -1;
     bottom: 0;
-    width: 245px;
+    right: 0;
+    left: 0;
     height: 15px;
 
     content: '';
@@ -86,10 +87,10 @@ h1 {
 }
 
 @media screen and (max-width: 572px) {
-    .greeting span:nth-child(2) span:before {
-        left: -200px;
-        width: 240px;
-    }
+     /*.greeting span:nth-child(2) span:after {*/
+    /*    left: 0;*/
+    /*    right: 0;*/
+    /*}*/
 
     .image {
         width: 260px;
@@ -104,9 +105,8 @@ h1 {
 
 @media only screen   and (min-device-width: 402px)
 and (max-width: 572px) {
-    .greeting span:nth-child(2) span:before {
-        left: -214px;
-
-        width: 125px;
+    .greeting span:nth-child(2) span:after {
+                             left: -214px;
+                             width: 125px;
     }
 }

@@ -10,41 +10,41 @@ function NavMenu() {
                 to="main"
                 spy={true}
                 smooth={true}
-                offset={0}
+                offset={-78}
                 duration= {500}
-            >
-            Главная
-            </Link>
+            ><span>Главная</span></Link>
             <Link
                 activeClass={s.active}
                 to="skills"
                 spy={true}
                 smooth={true}
-                offset={0}
+                offset={-78}
                 duration= {500}
-            >
-                Скилы
-            </Link>
+            ><span>Скилы</span></Link>
             <Link
                 activeClass={s.active}
                 to="projects"
                 spy={true}
                 smooth={true}
-                offset={0}
+                offset={-78}
                 duration= {500}
-            >
-                Проекты
-            </Link>
+            ><span>Проекты</span></Link>
+            {/*<Link*/}
+            {/*    activeClass={s.active}*/}
+            {/*    to="slogan"*/}
+            {/*    spy={true}*/}
+            {/*    smooth={true}*/}
+            {/*    offset={-80}*/}
+            {/*    duration= {500}*/}
+            {/*><span>Резюме</span></Link>*/}
             <Link
                 activeClass={s.active}
                 to="contacts"
                 spy={true}
                 smooth={true}
-                offset={0}
+                offset={-85}
                 duration= {500}
-            >
-                Контакты
-            </Link>
+            ><span>Контакты</span></Link>
         </div>
     );
 }

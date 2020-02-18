@@ -1,20 +1,18 @@
 .navMenu {
-    width: 360px;
+    width: 400px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     color: -webkit-link;
     cursor: pointer;
-    box-sizing: content-box;
-    margin:0;
-    padding: 0;
+    font-family: sans-serif;
+    height: 20px;
+
 }
 
-.link {
-text-decoration: none;
+.navMenu span {
 }
 
-
-.navMenu .active {
+.navMenu > .active {
     border-bottom: 2px solid black;
 
 }

@@ -13,10 +13,10 @@ function Contacts() {
         query: '(min-device-width: 1024px)'
     });
  let submitMessage = () => {
-     let message = {mail:mail,name:name,text:text};
-     axios.post("http://localhost:3010/sendMessage", {message})
+     debugger
+     axios.post("http://localhost:3010/sendMessage", {mail:mail,name:name,text:text})
          .then(()=> {
-             alert(message)
+             alert({mail:mail,name:name,text:text})
          })
 
  };
@@ -24,7 +24,8 @@ function Contacts() {
  const [name,setName]= useState('');
  const [text,setText]= useState('');
     return (
-        <div className={s.contacts} id={"contacts"}>
+        <div id={"contacts"}>
+        <div className={s.contacts} >
             <div className={s.container}>
                 <div className={s.title}>
                     <h2>{isDesktopOrLaptop?<Roll right>Контакты</Roll>:"Контакты"}</h2>
@@ -48,6 +49,7 @@ function Contacts() {
 
 
             </div>
+        </div>
         </div>
     );
 }

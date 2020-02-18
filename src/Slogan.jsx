@@ -11,7 +11,7 @@ function Slogan() {
         query: '(min-device-width: 1024px)'
     });
     return (
-        <div className={s.slogan}>
+        <div className={s.slogan} id={"slogan"}>
             <div className={s.container}>
                 <div>
                     {isDesktopOrLaptop ? <h2><Roll left cascade>Я на фрилансе</Roll></h2> : <h2>Я на фрилансе</h2>}
