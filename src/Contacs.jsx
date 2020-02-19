@@ -12,44 +12,45 @@ function Contacts() {
     const isDesktopOrLaptop = useMediaQuery({
         query: '(min-device-width: 1024px)'
     });
- let submitMessage = () => {
-     debugger
-     axios.post("http://localhost:3010/sendMessage", {mail:mail,name:name,text:text})
-         .then(()=> {
-             alert({mail:mail,name:name,text:text})
-         })
 
- };
  const [mail,setMail]= useState('');
  const [name,setName]= useState('');
  const [text,setText]= useState('');
+ const [contactBlock,setContactBlock]= useState(true);
+    let submitMessage = () => {
+        axios.post("https://smtp-nodejs-server1.herokuapp.com/sendMessage", {mail:mail,name:name,text:text})
+            .then(()=> {
+                setContactBlock(false);
+            })
+
+    };
     return (
         <div id={"contacts"}>
-        <div className={s.contacts} >
+       <div className={s.contacts} >
             <div className={s.container}>
                 <div className={s.title}>
                     <h2>{isDesktopOrLaptop?<Roll right>Контакты</Roll>:"Контакты"}</h2>
                     <div className={'line'}/>
                 </div>
-
-                <form className={s.contactForm}>
+                {contactBlock &&
+                <div className={s.contactForm}>
                     {isDesktopOrLaptop ? <>
                             <Fade right><input onChange={(e)=>setName(e.currentTarget.value)} type={"text"} name={"contacts"} placeholder={"ФИО"}/></Fade>
                             <Fade left> <input  onChange={(e)=>setMail(e.currentTarget.value)} type={"mail"}  name={"name"} placeholder={"e-mail"}/></Fade>
                             <Fade right><textarea  onChange={(e)=>setText(e.currentTarget.value)} placeholder={"Сообщение"}  name={"message"}/></Fade></>
                         :
-                        <><input type={"text"} placeholder={"ФИО"}/>
-                            <input type={"mail"} placeholder={"e-mail"}/>
-                            <textarea placeholder={"Сообщение"}/>
+                        <><input onChange={(e)=>setName(e.currentTarget.value)}  type={"text"} placeholder={"ФИО"}/>
+                            <input onChange={(e)=>setMail(e.currentTarget.value)}  type={"mail"} placeholder={"e-mail"}/>
+                            <textarea onChange={(e)=>setText(e.currentTarget.value)} placeholder={"Сообщение"}/>
                         </>}
                     <div>
                         <Button submitMsg={submitMessage} name={'Отправить'}/>
                     </div>
-                </form>
-
-
+                </div>}
+                {!contactBlock && <div className={s.answer}>Спасибо за проявленный интерес, я обязательно с Вами свяжусь!</div>}
             </div>
         </div>
+
         </div>
     );
 }
