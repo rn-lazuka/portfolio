@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './Slogan.module.css'
-import Button from "./Button";
+import Button from "../common/Button/Button";
 import Roll from 'react-reveal/Roll';
 import {useMediaQuery} from "react-responsive";
 

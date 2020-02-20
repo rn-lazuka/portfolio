@@ -1,9 +1,9 @@
 import React from 'react';
 import s from './Footer.module.css';
-import vk from  './assets/img/vk.png';
-import telegram from  './assets/img/telegram.png';
-import linkedin from  './assets/img/in.png';
-import instagram from  './assets/img/inst.png';
+import vk from '../assets/img/vk.png';
+import telegram from '../assets/img/telegram.png';
+import linkedin from '../assets/img/in.png';
+import instagram from '../assets/img/inst.png';
 
 function Footer() {
     return (

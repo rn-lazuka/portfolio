@@ -1,10 +1,10 @@
 import React from 'react';
 import s from './Projects.module.css'
-import Project from "./Project";
-import todolist from './assets/img/todolist.png'
-import socialnet from './assets/img/socialnet.png'
-import counter from './assets/img/counter.png'
-import game from './assets/img/game-onclick.png'
+import Project from "./Project/Project";
+import todolist from '../assets/img/todolist.png'
+import socialnet from '../assets/img/socialnet.png'
+import counter from '../assets/img/counter.png'
+import game from '../assets/img/game-onclick.png'
 import Fade from 'react-reveal/Fade';
 import {useMediaQuery} from "react-responsive";
 

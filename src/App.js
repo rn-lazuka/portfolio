@@ -1,13 +1,13 @@
 import React from 'react';
 import Particles from 'react-particles-js';
 import './App.css';
-import Header from "./Header";
-import Main from "./Main";
-import Skills from "./Skills";
-import Projects from "./Projects";
-import Slogan from "./Slogan";
-import Contacts from "./Contacs";
-import Footer from "./Footer";
+import Header from "./components/Header/Header";
+import Main from "./components/Main/Main";
+import Skills from "./components/Skills/Skills";
+import Projects from "./components/Projects/Projects";
+import Slogan from "./components/Slogan/Slogan";
+import Contacts from "./components/Contacts/Contacs";
+import Footer from "./components/Footer/Footer";
 
 
 

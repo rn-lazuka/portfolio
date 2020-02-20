@@ -60,16 +60,16 @@
 }
 
 .answer {
-    height: 290px;
+    height: 285px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
 @media screen and (max-width: 700px) {
-
     .contactForm {
         width: 100%;
     }
-
 }
 
