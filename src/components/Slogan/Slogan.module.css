@@ -17,3 +17,12 @@
     align-items: center;
     margin: 20px 0;
 }
+.container a{
+    font-size: larger;
+    text-decoration: none;
+    color: white;
+    transition: all .5s;
+}
+.container a:hover{
+    letter-spacing: .3em;
+}

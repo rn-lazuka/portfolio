@@ -1,9 +1,7 @@
 import React from 'react';
 import s from './Slogan.module.css'
-import Button from "../common/Button/Button";
 import Roll from 'react-reveal/Roll';
 import {useMediaQuery} from "react-responsive";
-
 
 
 function Slogan() {
@@ -17,7 +15,7 @@ function Slogan() {
                     {isDesktopOrLaptop ? <h2><Roll left cascade>Я на фрилансе</Roll></h2> : <h2>Я на фрилансе</h2>}
                     <div className={"line"}/>
                 </div>
-                <Button name={'Нанять меня'}/>
+                <a href={"https://jobs.tut.by/applicant/resumes/view?resume=7dfc0bc7ff02bf8d090039ed1f336830434230"} target={'_blank'}>Нанять меня</a>
             </div>
         </div>
     );

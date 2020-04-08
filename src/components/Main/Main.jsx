@@ -1,7 +1,7 @@
 import React from 'react';
 import s from './Main.module.css'
 import Tilt from 'react-tilt'
-import profile from '../assets/img/benderProfile.jpg'
+import profile from '../assets/img/profilePhoto.jpg'
 
 function Main() {
     return (
