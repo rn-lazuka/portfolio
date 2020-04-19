@@ -1,31 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "558346055c5065b014f4372253f757b2",
+    "revision": "039f44ffc28aac2e40acc35e84794f9a",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "6b5cf4875751b90595c5",
-    "url": "/portfolio/static/css/main.279ed7d0.chunk.css"
+    "revision": "dd9975080eb7400bb4d2",
+    "url": "/portfolio/static/css/main.2bafc665.chunk.css"
   },
   {
-    "revision": "9d4c01d7b6ab5950bd05",
-    "url": "/portfolio/static/js/2.49def7f2.chunk.js"
+    "revision": "51c89c0c7078c50d3789",
+    "url": "/portfolio/static/js/2.bed986d3.chunk.js"
   },
   {
     "revision": "7c4ada3a920bd5841bb63ce5c4cc22a3",
-    "url": "/portfolio/static/js/2.49def7f2.chunk.js.LICENSE"
+    "url": "/portfolio/static/js/2.bed986d3.chunk.js.LICENSE"
   },
   {
-    "revision": "6b5cf4875751b90595c5",
-    "url": "/portfolio/static/js/main.4f9facb6.chunk.js"
+    "revision": "dd9975080eb7400bb4d2",
+    "url": "/portfolio/static/js/main.babd0aec.chunk.js"
   },
   {
     "revision": "16c109c584451046bd84",
     "url": "/portfolio/static/js/runtime-main.860ade9b.js"
-  },
-  {
-    "revision": "70e49501d3a16514d2125a597d4fc8be",
-    "url": "/portfolio/static/media/benderProfile.70e49501.jpg"
   },
   {
     "revision": "15ba3d8e595046830fe3e184693e5732",
@@ -34,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a9ecab2bfc5833216ad15c766ff72d74",
     "url": "/portfolio/static/media/game-onclick.a9ecab2b.png"
+  },
+  {
+    "revision": "376946362f846d506a429e5b1aca3b7d",
+    "url": "/portfolio/static/media/github.37694636.png"
   },
   {
     "revision": "bd88d08fd941110b2e2c22897fce1ad9",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "897cb94f8ac7add4beef69b4b57fa09c",
     "url": "/portfolio/static/media/loader.897cb94f.svg"
+  },
+  {
+    "revision": "7b931c1ba03c6fdcb8a837cb7c08268f",
+    "url": "/portfolio/static/media/profilePhoto.7b931c1b.jpg"
   },
   {
     "revision": "ac801ae1b9d1dc02ace6bbd52fb3642c",
